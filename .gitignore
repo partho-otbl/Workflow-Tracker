@@ -1,0 +1,32 @@
+# --- Private / Sensitive ---
+.env
+backend/.env
+frontend/.env
+*.log
+
+# --- Java / Maven (Backend) ---
+backend/target/
+backend/*.jar
+backend/*.war
+backend/data/
+*.mv.db
+*.trace.db
+
+# --- Node / React (Frontend) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/build/
+
+# --- IDEs / Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+backend_error.log
+backend_output.log
+frontend_output.log
