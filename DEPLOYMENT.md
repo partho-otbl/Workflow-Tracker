@@ -18,7 +18,7 @@
    - `JWT_SECRET`: `<a-long-random-string>`
    - `ALLOWED_ORIGINS`: `https://your-frontend-url.onrender.com` (Add this *after* deploying frontend)
 
-## 3. Frontend Deployment (Render.com)
+## 3. Frontend Deployment (Render.com) 
 1. Create a **Static Site** on Render.
 2. Select the `frontend` directory.
 3. **Build Command**: `npm run build`
