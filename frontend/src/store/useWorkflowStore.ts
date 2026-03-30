@@ -116,7 +116,7 @@ export const useWorkflowStore = create<WorkflowState>((set, get) => ({
     set({ clipboard: { nodes: JSON.parse(JSON.stringify(nodes)), edges: JSON.parse(JSON.stringify(edges)) } });
   },
 
-  paste: (position) => {
+  paste: (_position) => {
     const { clipboard, nodes, edges } = get();
     if (!clipboard) return { nodes, edges };
 

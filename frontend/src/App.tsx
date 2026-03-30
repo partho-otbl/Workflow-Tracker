@@ -213,7 +213,6 @@ function AppContent() {
     
     // Throttle presence broadcast (not defined as a ref anymore to simplify, but could be)
     // For now keep it simple within the mouse move
-    const now = Date.now();
     // Use a local ref for throttling if needed, or just broadcast
     
     if (reactFlowWrapper.current) {
